@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-
+//
 class CgCustomBackgroundManager : CgBackgroundManager {
     override func extendTextures() -> Int {
         // Texture number assigns to #128(=16*8).
@@ -17,6 +17,7 @@ class CgCustomBackgroundManager : CgBackgroundManager {
     }
 }
 
+//
 class GameScene: SKScene {
     
     var sprite: CgSpriteManager!
