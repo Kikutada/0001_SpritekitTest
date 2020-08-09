@@ -17,7 +17,6 @@ class CgCustomBackgroundManager : CgBackgroundManager {
     }
 }
 
-//
 class GameScene: SKScene {
     
     var sprite: CgSpriteManager!
