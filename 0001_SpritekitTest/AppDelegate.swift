@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  0001_SpritekitTest
 //
-//  Created by 吉田己久忠 on 2020/08/09.
-//  Copyright © 2020 Kikutada. All rights reserved.
+//  Created by Kikutada on 2020/08/09.
+//  Copyright © 2020 Kikutada All rights reserved.
 //
 
 import UIKit
