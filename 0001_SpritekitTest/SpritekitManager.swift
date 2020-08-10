@@ -85,13 +85,11 @@ class CgSpriteManager: CgAssetManager {
         }
     }
     
-    /// Draw a sprite with a texture at the specified position.
+    /// Draw a sprite with a texture.
     /// - Parameters:
     ///   - number: Sprite control number between 0 to (maxNumber-1)
-    ///   - x: X coordinate for position.
-    ///   - y: Y coordinate for position.
     ///   - texture: Texture number to set a sprite.
-    func draw(_ number: Int, x: CGFloat, y: CGFloat, texture: Int) {
+    func draw(_ number: Int, texture: Int) {
         guard (number < maxNumberOfSprites && number >= 0) else { return }
         if let obj = sprites[number] {
             if !drawingState[number] {
@@ -99,10 +97,19 @@ class CgSpriteManager: CgAssetManager {
                 obj.isHidden = false
                 view?.addChild(obj)
             }
-            obj.position.x = x
-            obj.position.y = y
             self.setTexture(number, texture: texture)
         }
+    }
+
+    /// Draw a sprite with a texture at the specified position.
+    /// - Parameters:
+    ///   - number: Sprite control number between 0 to (maxNumber-1)
+    ///   - x: X coordinate for position.
+    ///   - y: Y coordinate for position.
+    ///   - texture: Texture number to set a sprite.
+    func draw(_ number: Int, x: CGFloat, y: CGFloat, texture: Int) {
+        draw(number, texture: texture)
+        setPosition(number, x: x, y: y)
     }
 
     /// Clear a drawing sprite.

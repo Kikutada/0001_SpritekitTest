@@ -15,6 +15,7 @@
 		D8B7EB0924E0403500DCD517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B7EB0824E0403500DCD517 /* Assets.xcassets */; };
 		D8B7EB0C24E0403500DCD517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B7EB0A24E0403500DCD517 /* LaunchScreen.storyboard */; };
 		D8B7EB1424E0426000DCD517 /* SpritekitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7EB1324E0426000DCD517 /* SpritekitManager.swift */; };
+		D8B7EB1824E1350C00DCD517 /* 0001_spritekitTest.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B7EB1724E1350C00DCD517 /* 0001_spritekitTest.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		D8B7EB0B24E0403500DCD517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B7EB0D24E0403500DCD517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B7EB1324E0426000DCD517 /* SpritekitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritekitManager.swift; sourceTree = "<group>"; };
+		D8B7EB1524E0518400DCD517 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D8B7EB1724E1350C00DCD517 /* 0001_spritekitTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001_spritekitTest.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		D8B7EAEF24E0403200DCD517 = {
 			isa = PBXGroup;
 			children = (
+				D8B7EB1624E1348700DCD517 /* imgaes */,
+				D8B7EB1524E0518400DCD517 /* README.md */,
 				D8B7EAFA24E0403200DCD517 /* 0001_SpritekitTest */,
 				D8B7EAF924E0403200DCD517 /* Products */,
 			);
@@ -71,6 +76,14 @@
 				D8B7EB0D24E0403500DCD517 /* Info.plist */,
 			);
 			path = 0001_SpritekitTest;
+			sourceTree = "<group>";
+		};
+		D8B7EB1624E1348700DCD517 /* imgaes */ = {
+			isa = PBXGroup;
+			children = (
+				D8B7EB1724E1350C00DCD517 /* 0001_spritekitTest.png */,
+			);
+			path = imgaes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B7EB1824E1350C00DCD517 /* 0001_spritekitTest.png in Resources */,
 				D8B7EB0724E0403200DCD517 /* Main.storyboard in Resources */,
 				D8B7EB0924E0403500DCD517 /* Assets.xcassets in Resources */,
 				D8B7EB0C24E0403500DCD517 /* LaunchScreen.storyboard in Resources */,
