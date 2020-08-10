@@ -1,14 +1,19 @@
 # SpriteKit Manager
 
-"SpriteKit Manager" makes programming of sprite drawing easier. This is a non-object based wrapper class for SpriteKit.　"SpritekitManager.swift" file provides the features.
+"SpriteKit Manager" makes it easy to draw sprites. This is a wrapper class for SpriteKit. "SpritekitManager.swift" file provides below features.
 
-For example, if you want to draw a sprite:
+For example, if you want to draw a sprite at the position:
 
 ```swift
 draw(0, x: 8, y: 8, texture: 1)
 ```
 
-Sprite drawing is handled by sprite number and texture number.
+Also, if you want to animate a sprite at regular intervals:
+
+```swift
+startAnimation(0, sequence: [0,1,2], timePerFrame: 0.1, repeat: true)
+```
+You can draw and animate the sprites by using specified sprite and texture number.
 
 # Assets
 
