@@ -42,7 +42,7 @@ When you run the program, the following screen will be displayed.
 
 # Usages
 
-To display the sprites, create CgSpriteManager class and call the APIs.
+To draw the sprites, create CgSpriteManager class and call the APIs.
 
 ```swift
 // Create a sprite manager object.
@@ -52,7 +52,7 @@ let sprite = CgSpriteManager(view: self, imageNamed: "spriteTest.png", width: 16
 sprite.draw(0, x: 8, y: 8, texture: 1)
 ```
 
-To display the backgrounds, create CgBackgroundManager class and call the APIs.
+To draw the backgrounds, create CgBackgroundManager class and call the APIs.
 
 ```swift
 // Create a background manager object.
