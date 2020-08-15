@@ -40,7 +40,7 @@ When you run the program, the following screen will be displayed.
 
 <img src="https://github.com/Kikutada/0001_SpritekitTest/blob/master/imgaes/0001_spritekitTest.png?raw=true" width=288>
 
-# Usages
+# Usage
 
 To draw the sprites, create CgSpriteManager class and call the APIs.
 
